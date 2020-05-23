@@ -554,7 +554,7 @@ shared_focus = {
 		focus = YAN_navy_start
 	}
 
-	mutally_exclusive = { focus = YAN_navy_1_r }
+	mutually_exclusive = { focus = YAN_navy_1_r }
 
 	completion_reward = {
 
@@ -572,7 +572,7 @@ shared_focus = {
 		focus = YAN_navy_start
 	}
 
-	mutally_exclusive = { focus = YAN_navy_1_l }
+	mutually_exclusive = { focus = YAN_navy_1_l }
 
 	completion_reward = {
 
@@ -580,7 +580,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YAN_navy_2
+	id = YAN_navy2
 	#icon = 
 	x = 43
 	y = 2
@@ -594,7 +594,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YAN_navy_3 #Something about Marines
+	id = YAN_navy3 #Something about Marines
 	#icon = 
 	x = 45
 	y = 2
