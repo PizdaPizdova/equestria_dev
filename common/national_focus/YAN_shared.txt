@@ -1681,6 +1681,9 @@ shared_focus = {
 	prerequisite = {
 		focus = YAN_final_blow_landlord
 	}
+	prerequisite = {
+		focus = YAN_hospitals
+	}
 
 	ai_will_do = {
 		factor = 180
