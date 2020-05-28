@@ -1696,3 +1696,37 @@ shared_focus = {
 		country_event = {id = Indozeeb.22 days = 5}
 	}
 }
+
+shared_focus = {
+	id = YAN_a_new_day
+	icon = GFX_goal_generic_propaganda
+	x = 15
+	y = 8 
+	cost = 8 
+
+	available = {
+		has_completed_focus = YAN_greatest_crackdown
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: focus YAN_a_new_day"
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = YAN_business_time 
+	icon = GFX_goal_generic_positive_trade_relations
+	x = 16 
+	y = 9 
+	cost = 10
+
+	prerequisite = {
+		focus = YAN_a_new_day
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus YAN_business_time"
+		add_idea = YAN_business 
+	}
+}
